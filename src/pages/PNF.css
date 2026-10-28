@@ -1,0 +1,15 @@
+.not-found {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  overflow: hidden;
+  padding: 24px;
+  background: #fff;
+}
+
+.not-found__animation {
+  display: block;
+  width: min(666px, 100%);
+  max-height: calc(100vh - 48px);
+  object-fit: contain;
+}
